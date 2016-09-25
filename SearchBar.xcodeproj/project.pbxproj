@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B710B1BB1D9865E700875724 /* CountriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B710B1BA1D9865E700875724 /* CountriesTableViewController.swift */; };
+		B710B1BD1D98664000875724 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B710B1BC1D98664000875724 /* WebViewController.swift */; };
+		B710B1BF1D98698100875724 /* countries.plist in Resources */ = {isa = PBXBuildFile; fileRef = B710B1BE1D98698100875724 /* countries.plist */; };
 		B7795EB61D985E4D00F4B905 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7795EB51D985E4D00F4B905 /* AppDelegate.swift */; };
-		B7795EB81D985E4D00F4B905 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7795EB71D985E4D00F4B905 /* ViewController.swift */; };
 		B7795EBB1D985E4D00F4B905 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7795EB91D985E4D00F4B905 /* Main.storyboard */; };
 		B7795EBD1D985E4D00F4B905 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7795EBC1D985E4D00F4B905 /* Assets.xcassets */; };
 		B7795EC01D985E4D00F4B905 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7795EBE1D985E4D00F4B905 /* LaunchScreen.storyboard */; };
@@ -34,9 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B710B1BA1D9865E700875724 /* CountriesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountriesTableViewController.swift; sourceTree = "<group>"; };
+		B710B1BC1D98664000875724 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		B710B1BE1D98698100875724 /* countries.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = countries.plist; sourceTree = "<group>"; };
 		B7795EB21D985E4D00F4B905 /* SearchBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7795EB51D985E4D00F4B905 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B7795EB71D985E4D00F4B905 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B7795EBA1D985E4D00F4B905 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B7795EBC1D985E4D00F4B905 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7795EBF1D985E4D00F4B905 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -97,8 +101,10 @@
 		B7795EB41D985E4D00F4B905 /* SearchBar */ = {
 			isa = PBXGroup;
 			children = (
+				B710B1BE1D98698100875724 /* countries.plist */,
 				B7795EB51D985E4D00F4B905 /* AppDelegate.swift */,
-				B7795EB71D985E4D00F4B905 /* ViewController.swift */,
+				B710B1BA1D9865E700875724 /* CountriesTableViewController.swift */,
+				B710B1BC1D98664000875724 /* WebViewController.swift */,
 				B7795EB91D985E4D00F4B905 /* Main.storyboard */,
 				B7795EBC1D985E4D00F4B905 /* Assets.xcassets */,
 				B7795EBE1D985E4D00F4B905 /* LaunchScreen.storyboard */,
@@ -236,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7795EC01D985E4D00F4B905 /* LaunchScreen.storyboard in Resources */,
+				B710B1BF1D98698100875724 /* countries.plist in Resources */,
 				B7795EBD1D985E4D00F4B905 /* Assets.xcassets in Resources */,
 				B7795EBB1D985E4D00F4B905 /* Main.storyboard in Resources */,
 			);
@@ -262,7 +269,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7795EB81D985E4D00F4B905 /* ViewController.swift in Sources */,
+				B710B1BB1D9865E700875724 /* CountriesTableViewController.swift in Sources */,
+				B710B1BD1D98664000875724 /* WebViewController.swift in Sources */,
 				B7795EB61D985E4D00F4B905 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,6 +423,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = U3465V32BF;
 				INFOPLIST_FILE = SearchBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jesusfabian.SearchBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -428,6 +437,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = U3465V32BF;
 				INFOPLIST_FILE = SearchBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jesusfabian.SearchBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -512,6 +522,7 @@
 				B7795EDC1D985E4D00F4B905 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B7795EDD1D985E4D00F4B905 /* Build configuration list for PBXNativeTarget "SearchBarTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +531,7 @@
 				B7795EDF1D985E4D00F4B905 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B7795EE01D985E4D00F4B905 /* Build configuration list for PBXNativeTarget "SearchBarUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +540,7 @@
 				B7795EE21D985E4D00F4B905 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

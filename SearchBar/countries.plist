@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>Afghanistan</string>
+	<string>Albania</string>
+	<string>Algeria</string>
+	<string>Angola</string>
+	<string>Argentina</string>
+	<string>Armenia</string>
+	<string>Australia</string>
+	<string>Austria</string>
+	<string>Azerbaijan</string>
+	<string>Bahrain</string>
+	<string>Bangladesh</string>
+	<string>Belarus</string>
+	<string>Belgium</string>
+	<string>Bosnia</string>
+	<string>Brazil</string>
+	<string>Bulgaria</string>
+	<string>Cambodia</string>
+	<string>Cameroon</string>
+	<string>Canada</string>
+	<string>Chile</string>
+	<string>China</string>
+	<string>Colombia</string>
+	<string>Croatia</string>
+	<string>Cuba</string>
+	<string>Cyprus</string>
+	<string>Czech Republic</string>
+	<string>Denmark</string>
+	<string>Ecuador</string>
+	<string>Egypt</string>
+	<string>Ethiopia</string>
+	<string>Finland</string>
+	<string>France</string>
+	<string>Georgia</string>
+	<string>Germany</string>
+	<string>Ghana</string>
+	<string>Greece</string>
+	<string>Honduras</string>
+	<string>Hungary</string>
+	<string>India</string>
+	<string>Indonesia</string>
+	<string>Iran</string>
+	<string>Iraq</string>
+	<string>Ireland</string>
+	<string>Israel</string>
+	<string>Italy</string>
+	<string>Jamaica</string>
+	<string>Japan</string>
+	<string>Jordan</string>
+	<string>Kazakhstan</string>
+	<string>Kenya</string>
+	<string>Korea</string>
+	<string>Kuwait</string>
+	<string>Lebanon</string>
+	<string>Libya</string>
+	<string>Malaysia</string>
+	<string>Mexico</string>
+	<string>Morocco</string>
+	<string>Mozambique</string>
+	<string>Nepal</string>
+	<string>Netherlands</string>
+	<string>Nicaragua</string>
+	<string>Nigeria</string>
+	<string>Norway</string>
+	<string>Pakistan</string>
+	<string>Panama</string>
+	<string>Paraguay</string>
+	<string>Peru</string>
+	<string>Philippines</string>
+	<string>Poland</string>
+	<string>Portugal</string>
+	<string>Qatar</string>
+	<string>Romania</string>
+	<string>Russia</string>
+	<string>Rwanda</string>
+	<string>Saudi Arabia</string>
+	<string>Singapore</string>
+	<string>Somalia</string>
+	<string>South Africa</string>
+	<string>Spain</string>
+	<string>Sudan</string>
+	<string>Sweden</string>
+	<string>Switzerland</string>
+	<string>Syria</string>
+	<string>Taiwan</string>
+	<string>Tajikistan</string>
+	<string>Thailand</string>
+	<string>Tunisia</string>
+	<string>Turkey</string>
+	<string>Turkmenistan</string>
+	<string>Uganda</string>
+	<string>Ukraine</string>
+	<string>United Arab Emirates</string>
+	<string>United Kingdom</string>
+	<string>United States of America</string>
+	<string>Uruguay</string>
+	<string>Uzbekistan</string>
+	<string>Venezuela</string>
+	<string>Vietnam</string>
+	<string>Yemen</string>
+	<string>Zimbabwe</string>
+</array>
+</plist>
